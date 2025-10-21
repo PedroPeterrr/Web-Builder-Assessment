@@ -1,10 +1,10 @@
-
+import LandingPage from "./pages/LandingPage"
 function App() {
 
   return (
-    <>
-      <h1 className="text-red">hello</h1>
-    </>
+    <main>
+      <LandingPage />
+    </main>
   )
 }
 
