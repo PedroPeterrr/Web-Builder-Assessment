@@ -2,17 +2,22 @@ import { serviceData } from "../constant/data";
 
 export default function Services() {
   return (
-    <section className="bg-gray-50 py-16 px-6 lg:px-20 font-poppins">
-      <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-          Our Services
-        </h2>
+    <section className="bg-gray-50 py-16 px-6 lg:px-20">
+      <div className="max-w-6xl mx-auto text-center flex flex-col gap-5">
+        <div className="text-left md:text-center flex flex-col"> 
+          <h1 className="small-heading">
+            Our Services
+          </h1>
+          <h2 className="big-heading text-dark whitespace-nowrap">
+            Leading You Home
+          </h2>
+        </div>
 
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {serviceData.map((item,  index) => (
             <div
               key={index}
-              className=" bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col"
+              className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col"
             >
               <img
                 src={item.logo}
@@ -20,10 +25,10 @@ export default function Services() {
                 className="h-60 md:90 w-full object-cover"
               />
               <div className="p-6 flex flex-col flex-1">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                <h3 className="text-xl font-semibold text-dark mb-3">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 text-sm leading-relaxed mb-4">
+                <p className="text-dark text-sm leading-relaxed mb-4">
                   {item.desc}
                 </p>
                  

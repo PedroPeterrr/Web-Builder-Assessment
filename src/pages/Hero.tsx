@@ -10,15 +10,15 @@ export default function Hero() {
     >
       <div className="absolute inset-0 bg-black/70"></div>
 
-      <div className="relative z-10 px-10 text-white flex gap-3 flex-col 
+      <div className="relative z-10 px-10 text-white flex gap-3 flex-col
         md:gap-6"
       >
-        <h2 className="text-3xl md:text-4xl font-poppins font-bold">
+        <h1 className="big-heading">
           Find Your Perfect Home in Pahrump
-        </h2>
-        <h3 className="text-lg md:text-xl font-poppins font-extralight">
+        </h1>
+        <h2 className="font-extralight text-base md:text-xl text-muted">
           Trusted local real-estate experts for nearly 3 decades
-        </h3>
+        </h2>
 
         <div className="flex flex-row gap-4 justify-center mt-6">
           <button 
@@ -33,7 +33,8 @@ export default function Hero() {
 
       <button
         onClick={() => scrollToSection("next-section")}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white animate-bounce hover:opacity-80 transition-opacity"
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white animate-bounce hover:opacity-80 transition-opacity
+          text-sm md:text-base"
       >
         Scroll down to see more.
       </button>
