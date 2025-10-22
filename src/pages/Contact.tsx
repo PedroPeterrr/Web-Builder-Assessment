@@ -63,25 +63,25 @@ export default function Contact() {
                 <div className="order-2 md:order-2 flex-1 flex flex-col gap-8">
                 {/* Header */}
                 <div>
-                    <h2 className="text-sm uppercase tracking-widest text-gray-500">
-                    Call or Visit
+                    <h2 className="small-heading tracking-widest">
+                        Call or Visit
                     </h2>
-                    <h3 className="text-2xl font-bold text-gray-900 mt-1">
-                    Marci Metzger — The Ridge Realty Group
+                    <h3 className="text-2xl font-bold text-dark mt-1">
+                        Marci Metzger — The Ridge Realty Group
                     </h3>
                 </div>
 
                 {/* Info Section */}
                 <div className="flex flex-col gap-4 text-gray-700">
                     <div>
-                        <h4 className="text-sm font-semibold text-gray-600 uppercase">Address</h4>
+                        <h4 className="text-sm font-semibold text-dark uppercase">Address</h4>
                         <p className="mt-1">
                             3190 HW-160, Suite F, Pahrump, Nevada 89048, United States
                         </p>
                     </div>
 
                     <div>
-                        <h4 className="text-sm font-semibold text-gray-600 uppercase">Phone</h4>
+                        <h4 className="text-sm font-semibold text-dark uppercase">Phone</h4>
                         <a
                             href="tel:12069196886"
                             className="mt-1 inline-block text-blue-600 font-medium hover:underline"
@@ -91,14 +91,14 @@ export default function Contact() {
                     </div>
 
                     <div>
-                        <h4 className="text-sm font-semibold text-gray-600 uppercase">
+                        <h4 className="text-sm font-semibold text-dark uppercase">
                             Office Hours
                         </h4>
                         <p className="mt-1">
                             Open daily — 8:00 am – 7:00 pm
                             <br />
-                            <small className="text-gray-500">
-                            Appointments outside office hours available upon request. Just call!
+                            <small className="text-muted">
+                                Appointments outside office hours available upon request. Just call!
                             </small>
                         </p>
                     </div>

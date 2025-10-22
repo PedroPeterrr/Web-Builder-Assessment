@@ -25,10 +25,10 @@ export default function PhotoGallery() {
   }, [selectedImage]);
 
   return (
-    <section className="w-full min-h-screen p-6 bg-black">
-      <h2 className="text-3xl md:text-4xl font-poppins font-bold text-white mb-6 md:text-center">
+    <section className="w-full min-h-screen p-6 bg-dark-bg">
+      <h1 className="small-heading mb-4 md:text-center">
         Photo Gallery
-      </h2>
+      </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {Photo.map(({logo, alt}, index) => (

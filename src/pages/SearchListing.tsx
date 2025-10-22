@@ -64,13 +64,13 @@ export default function SearchListing() {
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl w-full px-6 py-16 md:px-10">
-        <div className="md:text-center text-white mb-10 text-left">
-          <h2 className="text-sm uppercase tracking-widest text-gray-200">
+        <div className="md:text-center text-white mb-10">
+          <h1 className="small-heading tracking-widest">
             Find Your Dream Home
-          </h2>
-          <h3 className="text-3xl md:text-4xl font-bold mt-2">
+          </h1>
+          <h2 className="big-heading">
             Search Listings
-          </h3>
+          </h2>
         </div>
 
         <form
@@ -84,24 +84,24 @@ export default function SearchListing() {
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Location */}
-            <label className="flex flex-col text-sm font-medium text-gray-700">
+            <label className="label">
               Location
               <input
                 type="text"
                 name="location"
                 placeholder="Pahrump, NV"
-                className="placeholder-gray-400 mt-2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="placeholder-muted select-input"
                 value={formData.location}
                 onChange={handleChange}
               />
             </label>
 
             {/* Type */}
-            <label className="flex flex-col text-sm font-medium text-gray-700">
+            <label className="label">
               Type
               <select
                 name="type"
-                className="mt-2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="select-input"
                 value={formData.type}
                 onChange={handleChange}
               >
@@ -114,11 +114,11 @@ export default function SearchListing() {
             </label>
 
             {/* Sort */}
-            <label className="flex flex-col text-sm font-medium text-gray-700">
+            <label className="label">
               Sort By
               <select
                 name="sort"
-                className="mt-2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="select-input"
                 value={formData.sort}
                 onChange={handleChange}
               >
@@ -129,11 +129,11 @@ export default function SearchListing() {
             </label>
 
             {/* Beds */}
-            <label className="flex flex-col text-sm font-medium text-gray-700">
+            <label className="label">
               Bedrooms
               <select
                 name="beds"
-                className="mt-2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="select-input"
                 value={formData.beds}
                 onChange={handleChange}
               >
@@ -144,11 +144,11 @@ export default function SearchListing() {
             </label>
 
             {/* Baths */}
-            <label className="flex flex-col text-sm font-medium text-gray-700">
+            <label className="label">
               Bathrooms
               <select
                 name="baths"
-                className="mt-2 p-3  border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="select-input"
                 value={formData.baths}
                 onChange={handleChange}
               >
@@ -159,28 +159,28 @@ export default function SearchListing() {
             </label>
 
             {/* Min Price */}
-            <label className="flex flex-col text-sm font-medium text-gray-700">
+            <label className="label">
               Min Price
               <input
                 type="text"
                 name="min"
                 placeholder="$"
                 inputMode="numeric"
-                className="mt-2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="select-input"
                 value={formData.min}
                 onChange={handleChange}
               />
             </label>
 
             {/* Max Price */}
-            <label className="flex flex-col text-sm font-medium text-gray-700">
+            <label className="label">
               Max Price
               <input
                 type="text"
                 name="max"
                 placeholder="$"
                 inputMode="numeric"
-                className="mt-2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="select-input"
                 value={formData.max}
                 onChange={handleChange}
               />
