@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Contact() {
     const [email, setEmail] = useState("");
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         alert("Form submitted!");
     };
