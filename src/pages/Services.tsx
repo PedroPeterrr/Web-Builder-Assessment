@@ -33,7 +33,8 @@ export default function Services() {
                 </p>
                  
                 <div className="mt-6">
-                  <a
+                  <button
+                    type="button"
                     className="group inline-flex items-center text-blue-700 font-medium hover:text-blue-600 transition-all duration-300"
                   >
                     Learn More
@@ -42,7 +43,7 @@ export default function Services() {
                     >
                       →
                     </span>
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>

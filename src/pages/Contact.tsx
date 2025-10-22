@@ -16,7 +16,7 @@ export default function Contact() {
                     onSubmit={handleSubmit}
                     className="order-1 md:order-1 flex-1 flex flex-col gap-4 bg-white border border-gray-200 rounded-xl p-6 shadow-md hover:shadow-xl transition-shadow duration-300"
                 >
-                    <h4 className="text-xl font-semibold mb-2">Send Message</h4>
+                    <h1 className="text-xl font-semibold mb-2">Send Message</h1>
 
                     <label className="input-label flex flex-col gap-1">
                         Name
@@ -97,7 +97,7 @@ export default function Contact() {
                         <p className="mt-1">
                             Open daily — 8:00 am – 7:00 pm
                             <br />
-                            <small className="text-muted">
+                            <small className="text-gray-500">
                                 Appointments outside office hours available upon request. Just call!
                             </small>
                         </p>
@@ -116,13 +116,13 @@ export default function Contact() {
                         Call Now
                     </a>
 
-                    <a
-                        target="_blank"
+                    <button
+                        type="button"
                         rel="noopener noreferrer"
                         className="border border-gray-300 text-gray-700 hover:border-blue-600 hover:text-blue-600 font-medium px-6 py-3 rounded-full transition-all duration-200"
                     >
                         Message on WhatsApp
-                    </a>
+                    </button>
                 </div>
                 </div>
             </div>

@@ -26,7 +26,7 @@ export default function FeaturedListing() {
             <h3 className="text-3xl font-semibold text-dark">
               Top Residential Sales
             </h3>
-            <p className="text-sm uppercase tracking-wider text-muted">
+            <p className="text-sm uppercase tracking-wider text-gray-500">
               Last 5 Years
             </p>
             <p className="text-dark leading-relaxed text-lg">
@@ -50,7 +50,7 @@ export default function FeaturedListing() {
             <h3 className="text-3xl font-semibold text-dark">
               Don&apos;t Just List It...
             </h3>
-            <p className="text-sm uppercase tracking-wider text-muted">
+            <p className="text-sm uppercase tracking-wider text-gray-500">
               Get It SOLD!
             </p>
             <p className="text-dark leading-relaxed text-lg">
@@ -73,7 +73,7 @@ export default function FeaturedListing() {
             <h3 className="text-3xl font-semibold text-dark">
               Guide to Buyers
             </h3>
-            <p className="text-sm uppercase tracking-wider text-muted">
+            <p className="text-sm uppercase tracking-wider text-gray-500">
                 Expert Help
             </p>
             <p className="text-dark leading-relaxed text-lg">
